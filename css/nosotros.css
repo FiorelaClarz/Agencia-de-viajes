@@ -1,0 +1,131 @@
+:root {
+    --primary: #0d6efd;
+    --secondary: #2c3e50;
+    --accent: #ffc107;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.seccion1 {
+    background-image: url("../img/fondo-playa-tropical-amplia_88088-600.jpg");
+    width: 100%;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(138, 2, 2);
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+
+.titulo-seccion {
+    color: var(--secondary);
+    font-weight: 500;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.ofertas {
+    background-color: var(--accent);
+    color: var(--secondary);
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.acerca-de {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.tarjeta-paquetes {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    height: 100%;
+    transition: transform 0.3s ease;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.tarjeta-paquetes::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6));
+    z-index: 1;
+}
+
+.tarjeta-paquetes>* {
+    position: relative;
+    z-index: 2;
+}
+
+.tarjeta-paquetes:hover {
+    transform: translateY(-5px);
+}
+
+.titulo-paquetes {
+    color: white;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.precio-paquetes {
+    color: var(--accent);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.tarjeta-marca {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+.titulo-marca {
+    color: var(--primary);
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.agencia-t {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+.nombre-agencia {
+    font-weight: 600;
+    color: var(--secondary);
+    margin-bottom: 10px;
+}
+
+.rating {
+    color: var(--accent);
+    margin-bottom: 15px;
+}
+
+.contenedor-mapa {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 25px;
+}

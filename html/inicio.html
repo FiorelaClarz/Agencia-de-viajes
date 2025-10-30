@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perú Viajes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/inicio.css">
+    <link rel="stylesheet" href="../css/navegacion_footer.css">
+
+</head>
+
+<body>
+    <header class="menu-cabecera">
+        <div class="menu">
+            <ul>
+                <li><a href="./inicio.html">INICIO</a></li>
+                <li><a href="./nosotros.html">NOSOTROS</a></li>
+                <li><a href="./contacto.html">CONTACTO</a></li>
+            </ul>
+        </div>
+    </header>
+    <header class="header-principal">
+        <!--Logo y nav-->
+        <div class="logo-y-nav" id="logoNav">
+            <img src="../img/logo.png" alt="Logo de Peru viajes" />
+            <div class="seccion-de-navegacion">
+                <nav>
+                    <div class="navegacion">
+                        <ul>
+                            <li><a href="./nacionales.html">Paquetes<br />Nacionales</a></li>
+                            <li><a href="paquetesinternacionales.html">Paquetes<br />Internacionales</a></li>
+                            <li><a href="./cruceros.html">Cruceros<br /><br /></a></li>
+                            <li><a href="paquetesespeciales.html">Paquetes<br />Especiales</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <!-- Carrusel de imágenes -->
+            <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../img/1.png" class="d-block w-100" alt="Destino de viaje 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/2.png" class="d-block w-100" alt="Destino de viaje 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/3.png" class="d-block w-100" alt="Destino de viaje 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/4.png  " class="d-block w-100" alt="Destino de viaje 4">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/5.png" class="d-block w-100" alt="Destino de viaje 5">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </section>
+
+        <div class="container mt-4">
+            <h2 class="titulo-ofertas">> OFERTAS DE ÚLTIMO MINUTO</h2>
+        </div>
+
+        <!-- Sección principal con dos columnas -->
+        <div class="container contenido1">
+            <!-- Columna izquierda: Tarjetas de paquetes de viaje -->
+            <section class="seccion-tarjetas">
+                <div class="row">
+                    <!-- Primera fila de tarjetas -->
+                    <div class="col-lg-4 col-md-6 columna-tarjetas">
+                        <article class="card">
+                            <img src="../img/puntacana05_basicos.jpg" class="card-img-top" alt="Punta Cana">
+                            <div class="card-body">
+                                <h5 class="titulo-tarjeta">Paquete Punta Cana</h5>
+                                <p class="card-text">04Días/03Noches</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="precio-paquete">5665</span>
+                                    <button class="boton-info">INFORMACIÓN</button>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 columna-tarjetas">
+                        <article class="card">
+                            <img src="../img/cartagena_basicos.jpg" class="card-img-top" alt="Cartagena">
+                            <div class="card-body">
+                                <h5 class="titulo-tarjeta">Paquete Cartagena</h5>
+                                <p class="card-text">05Días/04Noches</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="precio-paquete">5580</span>
+                                    <button class="boton-info">INFORMACIÓN</button>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 columna-tarjetas">
+                        <article class="card">
+                            <img src="../img/iguazu01_basicos.jpg" class="card-img-top" alt="Iguazú">
+                            <div class="card-body">
+                                <h5 class="titulo-tarjeta">Paquete Iguazú</h5>
+                                <p class="card-text">04Días/03Noches</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="precio-paquete">5556</span>
+                                    <button class="boton-info">INFORMACIÓN</button>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Segunda fila de tarjetas -->
+                    <div class="col-lg-4 col-md-6 columna-tarjetas">
+                        <article class="card">
+                            <img src="../img/cancun_basicos.jpg" class="card-img-top" alt="Aruba">
+                            <div class="card-body">
+                                <h5 class="titulo-tarjeta">Paquete Cancún</h5>
+                                <p class="card-text">05Días/04Noches</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="precio-paquete">51,839</span>
+                                    <button class="boton-info">INFORMACIÓN</button>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 columna-tarjetas">
+                        <article class="card">
+                            <img src="../img/sanandress_basico.jpg" class="card-img-top" alt="Punta Cana">
+                            <div class="card-body">
+                                <h5 class="titulo-tarjeta">Paquete San Andrés</h5>
+                                <p class="card-text">04Días/03Noches</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="precio-paquete">5665</span>
+                                    <button class="boton-info">INFORMACIÓN</button>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 columna-tarjetas">
+                        <article class="card">
+                            <img src="../img/ori03_basicos.jpg" class="card-img-top" alt="Cartagena">
+                            <div class="card-body">
+                                <h5 class="titulo-tarjeta">Paquete Egipto</h5>
+                                <p class="card-text">05Días/04Noches</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="precio-paquete">5580</span>
+                                    <button class="boton-info">INFORMACIÓN</button>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Columna derecha: Boletín de suscripción -->
+            <aside class="suscripcion">
+                <div class="newsletter">
+                    <div class="container">
+                        <div class="text-center">
+                            <h3>SUSCRIBASE AL BOLETIN</h3>
+                            <div class="mb-3">
+                                <label for="emailInput" class="form-label">Correo Electronico</label>
+                                <input type="email" class="form-control" id="emailInput"
+                                    placeholder="Ingresa tu correo">
+                            </div>
+                            <button class="btn btn-primary">SUSCRIBIRSE</button>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 branch-info">
+                    <div class="titulo-marca-footer">PERÚ VIAJES</div>
+                    <div class="info-contacto">
+                        <p>En Perú Viajes somos un grupo de profesionales con mucha experiencia en asesoramiento de
+                            viajes, diseñamos los viajes de acuerdo a sus necesidades ya sea de negocios, vacacional,
+                            corporativo o estudiantes. </p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 branch-info">
+                    <div class="titulo-marca-footer">NUESTROS PAQUETES</div>
+                    <div class="info-contacto">
+                        <p><a href="./nacionales.html" class="link-contacto">Paquetes Nacionales</a></p>
+                        <p><a href="./paquetesinternacionales.html" class="link-contacto">Paquetes Internacionales</a></p>
+                        <p><a href="./paquetesespeciales.html" class="link-contacto">Paquetes especiales</a></p>
+                        <p><a href="./cruceros.html" class="link-contacto">Crucero</a></p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 branch-info">
+                    <div class="titulo-marca-footer">SUCURSAL DE LARCO</div>
+                    <div class="info-contacto">
+                        <p>Av.Larco 345 Mzz 11-Miraflores</p>
+                        <p><strong>990386973 | 988456535</strong></p>
+                        <p><a href="./contacto.html" class="link-contacto">escribenos@peruviajes.com</a></p>
+                        <p><a href="./inicio.html" class="link-contacto">www.peruviajes.net</a></p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 branch-info">
+                    <div class="titulo-marca-footer">SUCURSAL DE CUSCO</div>
+                    <div class="info-contacto">
+                        <p>Urb Luis Vallejo Santoni A-2-San Sebastián-Cusco</p>
+                        <p><strong>991309454</strong></p>
+                        <p><a href="./contacto.html" class="link-contacto">escribenos@peruviajes.com</a></p>
+                        <p><a href="./inicio.html" class="link-contacto">www.peruviajes.com</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="metodos-pago">
+                <h5>MÉTODOS DE PAGO</h5>
+                <div class="iconos-pago">
+                    <div class="icono-pago">
+                        <img class="imagen-pagos" src="../img/VISA.png" alt="visa pago">
+                    </div>
+                    <div class="icono-pago">
+                        <img class="imagen-pagos" src="../img/MASTERCADR.png" alt="mastercard pago">
+                    </div>
+                    <div class="icono-pago">
+                        <img class="imagen-pagos" src="../img/maestrocard.png" alt="maestrocard pago">
+                    </div>
+                    <div class="icono-pago">
+                        <img class="imagen-pagos" src="../img/visa-electron.png" alt="visa-e pago">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="copyright">
+            <div class="container">
+                <p>Perú Viajes - Derechos Reservados © 2025</p>
+                <p><a href="#" class="link-contacto">escribenos@peruviajes.com</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

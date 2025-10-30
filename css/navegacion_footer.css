@@ -1,0 +1,199 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+html, body {
+   border: 0px;
+}
+
+/* Header fijo */
+.header-principal {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+    background-color: white; 
+}
+
+/*--------------------------------------------------*/
+
+.menu-cabecera {
+   display: flex;
+   background-color: rgb(0, 0, 0);
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   height: 50px;
+}
+.menu {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.menu ul {
+   display: flex;
+   flex-direction: row;
+   list-style: none;
+}
+.menu a {
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+   padding: 25px;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.menu a:hover {
+   background-color: rgba(83, 4, 4, 0.75);
+   color: rgb(255, 204, 204);
+}
+
+
+
+/*---------------------------------*/
+.logo-y-nav {
+  position: sticky;
+   width: 100%;
+   height: 150px;
+   align-items: center;
+   display: flex;
+   justify-content: space-between;
+   padding: 0px;
+   margin: 0px;
+   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.logo-y-nav img {
+   position: relative;
+   width: 400px;
+   height: 150px;
+   
+}
+.seccion-de-navegacion {
+   display: flex;
+   background-color: rgb(184, 7, 7);
+   width: 850px;
+   height: 150px;
+   position: relative;
+   justify-content: center;
+   justify-items: center;
+   align-items: center;
+   
+}
+.navegacion {
+   text-align: center;
+   display: flex;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navegacion ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+.navegacion a {
+   text-decoration: none;
+   display: block;
+   padding: 43px; 
+   font-size: 20px;
+   color: rgb(255, 255, 255);
+}
+.navegacion a:hover {
+   color: rgb(255, 251, 0);
+}
+nav {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* footer_________________________________________________________ */
+.footer {
+    background-color: #ffbaba;
+    color: #fff;
+    padding: 40px 0 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer h5 {
+    color: #f8f9fa;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.footer p {
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #000000;
+}
+
+.footer a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #d00101;
+}
+
+.info-contacto {
+    margin-bottom: 25px;
+}
+
+.metodos-pago {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #940707;
+
+    h5 {
+        margin-bottom: 15px;
+        color: black;
+    }
+}
+
+.iconos-pago {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.imagen-pagos {
+    width: 40px;
+    height: 25px;
+    object-fit: contain;
+}
+.icono-pago {
+    background-color: #fff;
+    color: #333;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.copyright {
+    background-color: #ffffff;
+    color: #aaa;
+    padding: 15px 0;
+    margin-top: 30px;
+    font-size: 0.85rem;
+    text-align: center;
+}
+
+.branch-info {
+    margin-bottom: 30px;
+}
+
+.titulo-marca-footer {
+    color: #790000;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+.link-contacto {
+    color: #ef0000 !important;
+}
